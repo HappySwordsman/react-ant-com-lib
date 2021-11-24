@@ -1261,7 +1261,7 @@
 
 "@bcoe/v8-coverage@^0.2.3":
   "integrity" "sha1-daLotRy3WKdVPWgEpZMteqznXDk="
-  "resolved" "https://registry.nlark.com/@bcoe/v8-coverage/download/@bcoe/v8-coverage-0.2.3.tgz"
+  "resolved" "https://registry.npm.taobao.org/@bcoe/v8-coverage/download/@bcoe/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
 "@cnakazawa/watch@^1.0.3":
@@ -1443,7 +1443,7 @@
 
 "@jest/reporters@^26.6.2":
   "integrity" "sha1-H1GLmWN6Xxgwe9Ps+SdfaIKmZ/Y="
-  "resolved" "https://registry.npmmirror.com/@jest/reporters/download/@jest/reporters-26.6.2.tgz?cache=0&sync_timestamp=1634626743777&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Freporters%2Fdownload%2F%40jest%2Freporters-26.6.2.tgz"
+  "resolved" "https://registry.npmmirror.com/@jest/reporters/download/@jest/reporters-26.6.2.tgz?cache=0&sync_timestamp=1634626712558&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Freporters%2Fdownload%2F%40jest%2Freporters-26.6.2.tgz"
   "version" "26.6.2"
   dependencies:
     "@bcoe/v8-coverage" "^0.2.3"
@@ -1935,12 +1935,7 @@
   "resolved" "https://registry.npmmirror.com/@types/minimist/download/@types/minimist-1.2.2.tgz"
   "version" "1.2.2"
 
-"@types/node@*":
-  "integrity" "sha512-MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A=="
-  "resolved" "https://registry.npmmirror.com/@types/node/download/@types/node-16.11.9.tgz?cache=0&sync_timestamp=1637310817584&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.11.9.tgz"
-  "version" "16.11.9"
-
-"@types/node@^12.0.0":
+"@types/node@*", "@types/node@^12.0.0":
   "integrity" "sha512-i1KGxqcvJaLQali+WuypQnXwcplhtNtjs66eNsZpp2P2FL/trJJxx/VWsM0YCL2iMoIJrbXje48lvIQAQ4p2ZA=="
   "resolved" "https://registry.npmmirror.com/@types/node/download/@types/node-12.20.37.tgz?cache=0&sync_timestamp=1637310817584&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.20.37.tgz"
   "version" "12.20.37"
@@ -5176,7 +5171,7 @@
 
 "execa@^4.0.0":
   "integrity" "sha1-TlSRrRVy8vF6d9OIxshXE1sihHo="
-  "resolved" "https://registry.npmmirror.com/execa/download/execa-4.1.0.tgz?cache=0&sync_timestamp=1637147207309&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fexeca%2Fdownload%2Fexeca-4.1.0.tgz"
+  "resolved" "https://registry.npmmirror.com/execa/download/execa-4.1.0.tgz?cache=0&sync_timestamp=1637147245057&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fexeca%2Fdownload%2Fexeca-4.1.0.tgz"
   "version" "4.1.0"
   dependencies:
     "cross-spawn" "^7.0.0"
@@ -5677,7 +5672,7 @@
 
 "get-stream@^5.0.0":
   "integrity" "sha1-SWaheV7lrOZecGxLe+txJX1uItM="
-  "resolved" "https://registry.nlark.com/get-stream/download/get-stream-5.2.0.tgz"
+  "resolved" "https://registry.npm.taobao.org/get-stream/download/get-stream-5.2.0.tgz"
   "version" "5.2.0"
   dependencies:
     "pump" "^3.0.0"
@@ -5827,7 +5822,7 @@
 
 "growly@^1.3.0":
   "integrity" "sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE="
-  "resolved" "https://registry.nlark.com/growly/download/growly-1.3.0.tgz"
+  "resolved" "https://registry.npm.taobao.org/growly/download/growly-1.3.0.tgz"
   "version" "1.3.0"
 
 "gzip-size@5.1.1":
@@ -6030,7 +6025,7 @@
 
 "html-escaper@^2.0.0":
   "integrity" "sha1-39YAJ9o2o238viNiYsAKWCJoFFM="
-  "resolved" "https://registry.nlark.com/html-escaper/download/html-escaper-2.0.2.tgz"
+  "resolved" "https://registry.npm.taobao.org/html-escaper/download/html-escaper-2.0.2.tgz"
   "version" "2.0.2"
 
 "html-minifier-terser@^5.0.1":
@@ -6165,7 +6160,7 @@
 
 "human-signals@^1.1.1":
   "integrity" "sha1-xbHNFPUK6uCatsWf5jujOV/k36M="
-  "resolved" "https://registry.nlark.com/human-signals/download/human-signals-1.1.1.tgz?cache=0&sync_timestamp=1624364695595&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhuman-signals%2Fdownload%2Fhuman-signals-1.1.1.tgz"
+  "resolved" "https://registry.nlark.com/human-signals/download/human-signals-1.1.1.tgz"
   "version" "1.1.1"
 
 "iconv-lite@0.4.24":
@@ -6254,7 +6249,7 @@
 
 "import-local@^3.0.2":
   "integrity" "sha1-TVHCxJXKk5PaJZ7Ga2LgIpICEeA="
-  "resolved" "https://registry.npmmirror.com/import-local/download/import-local-3.0.3.tgz"
+  "resolved" "https://registry.npmmirror.com/import-local/download/import-local-3.0.3.tgz?cache=0&sync_timestamp=1633327317807&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fimport-local%2Fdownload%2Fimport-local-3.0.3.tgz"
   "version" "3.0.3"
   dependencies:
     "pkg-dir" "^4.2.0"
@@ -6707,7 +6702,7 @@
 
 "is-wsl@^2.2.0":
   "integrity" "sha1-dKTHbnfKn9P5MvKQwX6jJs0VcnE="
-  "resolved" "https://registry.nlark.com/is-wsl/download/is-wsl-2.2.0.tgz"
+  "resolved" "https://registry.npm.taobao.org/is-wsl/download/is-wsl-2.2.0.tgz?cache=0&sync_timestamp=1592843177178&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fis-wsl%2Fdownload%2Fis-wsl-2.2.0.tgz"
   "version" "2.2.0"
   dependencies:
     "is-docker" "^2.0.0"
@@ -6746,7 +6741,7 @@
 
 "istanbul-lib-instrument@^4.0.3":
   "integrity" "sha1-hzxv/4l0UBGCIndGlqPyiQLXfB0="
-  "resolved" "https://registry.npmmirror.com/istanbul-lib-instrument/download/istanbul-lib-instrument-4.0.3.tgz"
+  "resolved" "https://registry.npmmirror.com/istanbul-lib-instrument/download/istanbul-lib-instrument-4.0.3.tgz?cache=0&sync_timestamp=1635386602569&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fistanbul-lib-instrument%2Fdownload%2Fistanbul-lib-instrument-4.0.3.tgz"
   "version" "4.0.3"
   dependencies:
     "@babel/core" "^7.7.5"
@@ -6767,7 +6762,7 @@
 
 "istanbul-lib-report@^3.0.0":
   "integrity" "sha1-dRj+UupE3jcvRgp2tezan/tz2KY="
-  "resolved" "https://registry.nlark.com/istanbul-lib-report/download/istanbul-lib-report-3.0.0.tgz"
+  "resolved" "https://registry.npm.taobao.org/istanbul-lib-report/download/istanbul-lib-report-3.0.0.tgz"
   "version" "3.0.0"
   dependencies:
     "istanbul-lib-coverage" "^3.0.0"
@@ -6785,7 +6780,7 @@
 
 "istanbul-reports@^3.0.2":
   "integrity" "sha1-olgBB+cSeeptZh3e3pKf/G1pM4Q="
-  "resolved" "https://registry.npmmirror.com/istanbul-reports/download/istanbul-reports-3.0.5.tgz?cache=0&sync_timestamp=1634144713451&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fistanbul-reports%2Fdownload%2Fistanbul-reports-3.0.5.tgz"
+  "resolved" "https://registry.npmmirror.com/istanbul-reports/download/istanbul-reports-3.0.5.tgz"
   "version" "3.0.5"
   dependencies:
     "html-escaper" "^2.0.0"
@@ -6793,7 +6788,7 @@
 
 "jest-changed-files@^26.6.2":
   "integrity" "sha1-9hmEeeHMZvIvmuHiKsqgtCnAQtA="
-  "resolved" "https://registry.npmmirror.com/jest-changed-files/download/jest-changed-files-26.6.2.tgz?cache=0&sync_timestamp=1634496307606&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-changed-files%2Fdownload%2Fjest-changed-files-26.6.2.tgz"
+  "resolved" "https://registry.npmmirror.com/jest-changed-files/download/jest-changed-files-26.6.2.tgz"
   "version" "26.6.2"
   dependencies:
     "@jest/types" "^26.6.2"
@@ -7041,7 +7036,7 @@
 
 "jest-resolve-dependencies@^26.6.3":
   "integrity" "sha1-ZoCFnuXSLuXc2WH+SHH1n0x4T7Y="
-  "resolved" "https://registry.npmmirror.com/jest-resolve-dependencies/download/jest-resolve-dependencies-26.6.3.tgz"
+  "resolved" "https://registry.npmmirror.com/jest-resolve-dependencies/download/jest-resolve-dependencies-26.6.3.tgz?cache=0&sync_timestamp=1634626724098&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-resolve-dependencies%2Fdownload%2Fjest-resolve-dependencies-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@jest/types" "^26.6.2"
@@ -7203,7 +7198,7 @@
 
 "jest-watch-typeahead@0.6.1":
   "integrity" "sha1-RSIbhrtnELfpe6qhZAriSgd4XmM="
-  "resolved" "https://registry.npmmirror.com/jest-watch-typeahead/download/jest-watch-typeahead-0.6.1.tgz?cache=0&sync_timestamp=1632900043710&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-watch-typeahead%2Fdownload%2Fjest-watch-typeahead-0.6.1.tgz"
+  "resolved" "https://registry.npmmirror.com/jest-watch-typeahead/download/jest-watch-typeahead-0.6.1.tgz?cache=0&sync_timestamp=1632899984169&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-watch-typeahead%2Fdownload%2Fjest-watch-typeahead-0.6.1.tgz"
   "version" "0.6.1"
   dependencies:
     "ansi-escapes" "^4.3.1"
@@ -7216,7 +7211,7 @@
 
 "jest-watcher@^26.3.0", "jest-watcher@^26.6.2":
   "integrity" "sha1-pbaDuPnWjbyx19rjIXLSzKBZKXU="
-  "resolved" "https://registry.npmmirror.com/jest-watcher/download/jest-watcher-26.6.2.tgz?cache=0&sync_timestamp=1634626751356&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-watcher%2Fdownload%2Fjest-watcher-26.6.2.tgz"
+  "resolved" "https://registry.npmmirror.com/jest-watcher/download/jest-watcher-26.6.2.tgz?cache=0&sync_timestamp=1634626717372&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-watcher%2Fdownload%2Fjest-watcher-26.6.2.tgz"
   "version" "26.6.2"
   dependencies:
     "@jest/test-result" "^26.6.2"
@@ -7255,7 +7250,7 @@
 
 "jest@^26.0.0", "jest@26.6.0":
   "integrity" "sha1-VGslodjIiFadu+k8rhMXSAhqSiU="
-  "resolved" "https://registry.npmmirror.com/jest/download/jest-26.6.0.tgz?cache=0&sync_timestamp=1634626752478&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest%2Fdownload%2Fjest-26.6.0.tgz"
+  "resolved" "https://registry.npmmirror.com/jest/download/jest-26.6.0.tgz?cache=0&sync_timestamp=1634626718300&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest%2Fdownload%2Fjest-26.6.0.tgz"
   "version" "26.6.0"
   dependencies:
     "@jest/core" "^26.6.0"
@@ -7897,7 +7892,7 @@
 
 "mimic-fn@^2.1.0":
   "integrity" "sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs="
-  "resolved" "https://registry.npm.taobao.org/mimic-fn/download/mimic-fn-2.1.0.tgz"
+  "resolved" "https://registry.nlark.com/mimic-fn/download/mimic-fn-2.1.0.tgz"
   "version" "2.1.0"
 
 "min-indent@^1.0.0":
@@ -8197,7 +8192,7 @@
 
 "node-notifier@^8.0.0":
   "integrity" "sha1-8xZ6OO8NLIqGaoPjGMG6Dv63AsU="
-  "resolved" "https://registry.nlark.com/node-notifier/download/node-notifier-8.0.2.tgz?cache=0&sync_timestamp=1621962189467&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnode-notifier%2Fdownload%2Fnode-notifier-8.0.2.tgz"
+  "resolved" "https://registry.nlark.com/node-notifier/download/node-notifier-8.0.2.tgz?cache=0&sync_timestamp=1621962335259&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnode-notifier%2Fdownload%2Fnode-notifier-8.0.2.tgz"
   "version" "8.0.2"
   dependencies:
     "growly" "^1.3.0"
@@ -8306,7 +8301,7 @@
 
 "npm-run-path@^4.0.0":
   "integrity" "sha1-t+zR5e1T2o43pV4cImnguX7XSOo="
-  "resolved" "https://registry.npmmirror.com/npm-run-path/download/npm-run-path-4.0.1.tgz?cache=0&sync_timestamp=1633420566316&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fnpm-run-path%2Fdownload%2Fnpm-run-path-4.0.1.tgz"
+  "resolved" "https://registry.npmmirror.com/npm-run-path/download/npm-run-path-4.0.1.tgz?cache=0&sync_timestamp=1633420549182&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fnpm-run-path%2Fdownload%2Fnpm-run-path-4.0.1.tgz"
   "version" "4.0.1"
   dependencies:
     "path-key" "^3.0.0"
@@ -8481,7 +8476,7 @@
 
 "onetime@^5.1.0":
   "integrity" "sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4="
-  "resolved" "https://registry.npm.taobao.org/onetime/download/onetime-5.1.2.tgz?cache=0&sync_timestamp=1617889724435&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fonetime%2Fdownload%2Fonetime-5.1.2.tgz"
+  "resolved" "https://registry.nlark.com/onetime/download/onetime-5.1.2.tgz"
   "version" "5.1.2"
   dependencies:
     "mimic-fn" "^2.1.0"
@@ -8547,7 +8542,7 @@
 
 "p-each-series@^2.1.0":
   "integrity" "sha1-EFqwNXznKyAqiouUkzZyZXteKpo="
-  "resolved" "https://registry.nlark.com/p-each-series/download/p-each-series-2.2.0.tgz"
+  "resolved" "https://registry.npm.taobao.org/p-each-series/download/p-each-series-2.2.0.tgz?cache=0&sync_timestamp=1617946660217&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fp-each-series%2Fdownload%2Fp-each-series-2.2.0.tgz"
   "version" "2.2.0"
 
 "p-finally@^1.0.0":
@@ -8744,7 +8739,7 @@
 
 "path-key@^3.0.0":
   "integrity" "sha1-WB9q3mWMu6ZaDTOA3ndTKVBU83U="
-  "resolved" "https://registry.npm.taobao.org/path-key/download/path-key-3.1.1.tgz"
+  "resolved" "https://registry.nlark.com/path-key/download/path-key-3.1.1.tgz"
   "version" "3.1.1"
 
 "path-key@^3.1.0":
@@ -8850,7 +8845,7 @@
 
 "pkg-dir@^4.2.0":
   "integrity" "sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM="
-  "resolved" "https://registry.npmmirror.com/pkg-dir/download/pkg-dir-4.2.0.tgz"
+  "resolved" "https://registry.npmmirror.com/pkg-dir/download/pkg-dir-4.2.0.tgz?cache=0&sync_timestamp=1633498133295&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpkg-dir%2Fdownload%2Fpkg-dir-4.2.0.tgz"
   "version" "4.2.0"
   dependencies:
     "find-up" "^4.0.0"
@@ -9637,15 +9632,7 @@
   dependencies:
     "asap" "~2.0.6"
 
-"prompts@^2.0.1":
-  "integrity" "sha1-e1fnOzpIAprRDr1E90sBcipMsGk="
-  "resolved" "https://registry.npmmirror.com/prompts/download/prompts-2.4.2.tgz?cache=0&sync_timestamp=1633642460453&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fprompts%2Fdownload%2Fprompts-2.4.2.tgz"
-  "version" "2.4.2"
-  dependencies:
-    "kleur" "^3.0.3"
-    "sisteransi" "^1.0.5"
-
-"prompts@2.4.0":
+"prompts@^2.0.1", "prompts@2.4.0":
   "integrity" "sha1-SqXeByOiMdHukSHED99mPfc/Ydc="
   "resolved" "https://registry.npmmirror.com/prompts/download/prompts-2.4.0.tgz?cache=0&sync_timestamp=1633642460453&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fprompts%2Fdownload%2Fprompts-2.4.0.tgz"
   "version" "2.4.0"
@@ -10230,7 +10217,7 @@
 
 "resolve-from@^5.0.0":
   "integrity" "sha1-w1IlhD3493bfIcV1V7wIfp39/Gk="
-  "resolved" "https://registry.nlark.com/resolve-from/download/resolve-from-5.0.0.tgz?cache=0&sync_timestamp=1622605305717&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fresolve-from%2Fdownload%2Fresolve-from-5.0.0.tgz"
+  "resolved" "https://registry.nlark.com/resolve-from/download/resolve-from-5.0.0.tgz"
   "version" "5.0.0"
 
 "resolve-url-loader@^3.1.2":
@@ -10743,7 +10730,7 @@
 
 "shellwords@^0.1.1":
   "integrity" "sha1-1rkYHBpI05cyTISHHvvPxz/AZUs="
-  "resolved" "https://registry.nlark.com/shellwords/download/shellwords-0.1.1.tgz"
+  "resolved" "https://registry.npm.taobao.org/shellwords/download/shellwords-0.1.1.tgz"
   "version" "0.1.1"
 
 "side-channel@^1.0.4":
@@ -11309,7 +11296,7 @@
 
 "supports-hyperlinks@^2.0.0":
   "integrity" "sha1-T3e0JIh2WJF3S3DHm6vYf5vVlLs="
-  "resolved" "https://registry.nlark.com/supports-hyperlinks/download/supports-hyperlinks-2.2.0.tgz"
+  "resolved" "https://registry.npm.taobao.org/supports-hyperlinks/download/supports-hyperlinks-2.2.0.tgz?cache=0&sync_timestamp=1617752134357&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsupports-hyperlinks%2Fdownload%2Fsupports-hyperlinks-2.2.0.tgz"
   "version" "2.2.0"
   dependencies:
     "has-flag" "^4.0.0"
@@ -11388,7 +11375,7 @@
 
 "terminal-link@^2.0.0":
   "integrity" "sha1-FKZKJ6s8Dfkz6lRvulXy0HjtyZQ="
-  "resolved" "https://registry.npm.taobao.org/terminal-link/download/terminal-link-2.1.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fterminal-link%2Fdownload%2Fterminal-link-2.1.1.tgz"
+  "resolved" "https://registry.nlark.com/terminal-link/download/terminal-link-2.1.1.tgz?cache=0&sync_timestamp=1618866203456&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fterminal-link%2Fdownload%2Fterminal-link-2.1.1.tgz"
   "version" "2.1.1"
   dependencies:
     "ansi-escapes" "^4.2.1"
