@@ -5,15 +5,15 @@ import MenuItem from './components/Menu/MenuItem'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{padding: '10px'}}>
       <Menu defaultIndex={0} onSelect={(index) => alert(index)}>
-        <MenuItem index={0}>
+        <MenuItem>
           cool link
         </MenuItem>
-        <MenuItem index={1}>
+        <MenuItem disabled>
           cool link2
         </MenuItem>
-        <MenuItem index={2}>
+        <MenuItem>
           cool link3
         </MenuItem>
       </Menu>
