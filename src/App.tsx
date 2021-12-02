@@ -2,17 +2,22 @@ import React from 'react';
 import Button, {ButtonSize, ButtonType} from "./components/Button/button";
 import Menu from './components/Menu/Menu'
 import MenuItem from './components/Menu/MenuItem'
-const abd =   111
+import SubMenu from './components/Menu/SubMenu'
+
 function App() {
   return (
     <div className="App" style={{padding: '10px'}}>
-      <Menu defaultIndex={0} onSelect={(index) => alert(index)}>
+      <Menu defaultIndex={'0'} onSelect={(index) => alert(index)} mode={"vertical"} defaultOpenSubMenus={['2']}>
         <MenuItem>
           cool link
         </MenuItem>
         <MenuItem disabled>
           cool link2
         </MenuItem>
+        <SubMenu title='dropdown'>
+          <MenuItem>dropdown1</MenuItem>
+          <MenuItem>dropdown2</MenuItem>
+        </SubMenu>
         <MenuItem>
           cool link3
         </MenuItem>
