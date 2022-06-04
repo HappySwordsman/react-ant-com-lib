@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // 输出的文件路径
+    "module": "ESNext", // 模块的文件格式
+    "target": "ES5", // 编译后的es的标准版本
+    "declaration": true, // 生成.d.ts文件 方便使用者查看ts约束类型
+    "jsx": "react", // 编译出来react.createElement代替jsx render函数
+    "moduleResolution": "Node", // 打包寻找的文件路径标准
+    "allowSyntheticDefaultImports": true // 支持default import的引入方式
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx"
+  ]
+}

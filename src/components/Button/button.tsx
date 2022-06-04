@@ -1,5 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
+import Icon from "../Icon/icon";
 
 /** 按钮的尺寸枚举 **/
 export enum ButtonSize {
@@ -79,6 +80,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
         {...restProps}
       >
         {children}
+          <Icon icon='coffee' />
       </button>
     )
   }

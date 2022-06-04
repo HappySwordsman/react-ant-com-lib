@@ -1,37 +1,43 @@
 {
-  "name": "hanppyVikingship",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@longxiaoxiu/happy-viking-ship",
+  "version": "1.0.1",
+  "description": "React components library",
+  "author": "longxiaoxiu",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.js",
+  "license": "MIT",
+  "keywords": [
+    "Component",
+    "UI",
+    "React"
+  ],
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/classnames": "^2.3.1",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@types/react-transition-group": "^4.4.4",
-    "@types/storybook__addon-info": "^5.2.4",
     "classnames": "^2.3.1",
-    "node-sass": "^6.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "react-transition-group": "^4.4.2",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "react-transition-group": "^4.4.2"
+  },
+  "peerDependencies": {
+    "react": "> 16.8.0",
+    "react-dom": "> 16.8.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "clean": "rimraf ./dist",
+    "build": "yarn run clean && yarn run build-ts && yarn run build-css",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "build-ts": "tsc -p tsconfig.build.json",
+    "build-css": "node-sass ./src/styles/index.scss ./dist/index.css",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "prepublish": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -62,6 +68,20 @@
     ]
   },
   "devDependencies": {
+    "rimraf": "^3.0.2",
+    "node-sass": "^6.0.1",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/classnames": "^2.3.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-transition-group": "^4.4.4",
+    "@types/storybook__addon-info": "^5.2.4",
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-docs": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
@@ -73,6 +93,8 @@
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint-plugin-react": "^7.27.1",
-    "react-docgen-typescript-loader": "^3.7.2"
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
