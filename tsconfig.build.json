@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "dist", // 输出的文件路径
+    "outDir": "lib", // 输出的文件路径
     "module": "ESNext", // 模块的文件格式
     "target": "ES5", // 编译后的es的标准版本
     "declaration": true, // 生成.d.ts文件 方便使用者查看ts约束类型

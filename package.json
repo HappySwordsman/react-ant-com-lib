@@ -1,12 +1,12 @@
 {
   "name": "@longxiaoxiu/happy-viking-ship",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React components library",
   "author": "longxiaoxiu",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.js",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.js",
   "license": "MIT",
   "keywords": [
     "Component",
@@ -30,12 +30,12 @@
   "scripts": {
     "start": "react-scripts start",
     "lint": "eslint --ext js,ts,tsx src",
-    "clean": "rimraf ./dist",
+    "clean": "rimraf ./lib",
     "build": "yarn run clean && yarn run build-ts && yarn run build-css",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build-ts": "tsc -p tsconfig.build.json",
-    "build-css": "node-sass ./src/styles/index.scss ./dist/index.css",
+    "build-css": "node-sass ./src/styles/index.scss ./lib/index.css",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
