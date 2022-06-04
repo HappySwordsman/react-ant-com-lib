@@ -1,7 +1,7 @@
 import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import type { ComponentStory, ComponentMeta } from '@storybook/react';
 import { action } from '@storybook/addon-actions'
-import Button, { ButtonSize, ButtonType } from './button';
+import Button, { ButtonSize, ButtonType } from './button'
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -11,7 +11,7 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   }
-} as ComponentMeta<typeof Button>;
+} as ComponentMeta<typeof Button>
 
 const defaultButton = () => (
   <Button onClick={action('clicked')}>default button</Button>
@@ -29,7 +29,7 @@ const buttonWithSize = () => (
 )
 
 export const ButtonWithSize: ComponentStory<typeof Button> = () => buttonWithSize();
-ButtonWithSize.storyName = '不同尺寸 Button';
+ButtonWithSize.storyName = "不同尺寸 Button";
 
 const buttonWithType = () => (
   <div>

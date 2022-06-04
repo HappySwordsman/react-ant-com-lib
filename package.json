@@ -29,6 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint --ext js,ts,tsx src",
     "clean": "rimraf ./dist",
     "build": "yarn run clean && yarn run build-ts && yarn run build-css",
     "test": "react-scripts test",
