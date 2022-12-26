@@ -1,3 +1,8 @@
+/*
+ * @Author: yexiaolong
+ * @Date: 2022-12-26 15:03:43
+ * @Description: 
+ */
 import React, { useContext } from 'react'
 import classNames from "classnames";
 import { MenuContext } from './Menu'
@@ -23,10 +28,10 @@ const MenuItem: React.FC<MenuItemProps> = (props) => {
   return (
     <MenuContext.Consumer>
       {
-        ({index}) =>
-          <li className={classes} style={style} onClick={handleClick}>
+        () =>
+          (<li className={classes} style={style} onClick={handleClick}>
             { children }
-          </li>
+          </li>)
       }
     </MenuContext.Consumer>
   )

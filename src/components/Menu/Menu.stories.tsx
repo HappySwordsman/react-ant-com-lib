@@ -1,6 +1,11 @@
+/*
+ * @Author: yexiaolong
+ * @Date: 2022-12-26 15:03:43
+ * @Description: 
+ */
 import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { action } from '@storybook/addon-actions'
+import type { ComponentStory, ComponentMeta } from '@storybook/react';
+// import { action } from '@storybook/addon-actions'
 import Menu from './Menu';
 import MenuItem from './MenuItem';
 import SubMenu from "./SubMenu";

@@ -1,6 +1,11 @@
+/*
+ * @Author: yexiaolong
+ * @Date: 2022-12-26 15:03:43
+ * @Description: 
+ */
 import React from 'react'
 import { CSSTransition } from 'react-transition-group'
-import { CSSTransitionProps } from 'react-transition-group/CSSTransition'
+import type { CSSTransitionProps } from 'react-transition-group/CSSTransition'
 
 type AnimationName = 'zoom-in-top' | 'zoom-in-left' | 'zoom-in-right' | 'zoom-in-bottom'
 

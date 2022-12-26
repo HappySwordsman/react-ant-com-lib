@@ -1,9 +1,14 @@
-import React, {Dispatch, FunctionComponentElement, SetStateAction, useContext, useState} from 'react'
+/*
+ * @Author: yexiaolong
+ * @Date: 2022-12-26 15:03:43
+ * @Description: 
+ */
+import React, { useContext, useState } from 'react'
+import type { FunctionComponentElement } from 'react'
 import classNames from "classnames";
 import { MenuContext } from './Menu'
-import { MenuItemProps } from './MenuItem'
+import type { MenuItemProps } from './MenuItem'
 import Icon from '../Icon/icon'
-import { CSSTransition } from 'react-transition-group'
 import Transition from '../Transition/transition'
 
 export interface SubMenuProps {

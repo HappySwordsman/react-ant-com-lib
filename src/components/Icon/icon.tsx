@@ -1,6 +1,12 @@
+/*
+ * @Author: yexiaolong
+ * @Date: 2022-12-26 15:03:43
+ * @Description: 
+ */
 import React from "react";
 import classNames from "classnames";
-import { FontAwesomeIcon, FontAwesomeIconProps } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import type { FontAwesomeIconProps } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas as any)
