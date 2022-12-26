@@ -1,12 +1,6 @@
-/*
- * @Author: yexiaolong
- * @Date: 2022-12-26 15:03:43
- * @Description: 
- */
-import React from 'react'
-import type { ReactElement, InputHTMLAttributes, FC } from 'react'
+import React, { ReactElement, InputHTMLAttributes, FC } from 'react'
 import classNames from 'classnames'
-import type { IconProp } from '@fortawesome/fontawesome-svg-core'
+import { IconProp }from '@fortawesome/fontawesome-svg-core'
 import Icon from '../Icon/icon'
 
 type InputSize = 'lg' | 'sm'
