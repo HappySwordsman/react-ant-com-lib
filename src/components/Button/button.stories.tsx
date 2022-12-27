@@ -1,3 +1,8 @@
+/*
+ * @Author: yexiaolong
+ * @Date: 2022-12-26 16:13:05
+ * @Description: 
+ */
 import React from 'react';
 import type { ComponentStory, ComponentMeta } from '@storybook/react';
 import { action } from '@storybook/addon-actions'
@@ -14,12 +19,15 @@ export default {
 } as ComponentMeta<typeof Button>
 
 const defaultButton = () => (
-  <Button onClick={action('clicked')}>default button</Button>
+  <div>
+    <Button disabled onClick={action('clicked')}>default button</Button>
+    <Button disabled btnType={ButtonType.Link} href="http://www.baidu.com" onClick={action('clicked')}>link button</Button>
+  </div>
 )
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 export const Primary: ComponentStory<typeof Button> = () => defaultButton();
-Primary.storyName = 'Button';
+Primary.storyName = '禁用的Button';
 
 const buttonWithSize = () => (
   <div>

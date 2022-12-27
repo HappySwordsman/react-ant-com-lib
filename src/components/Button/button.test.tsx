@@ -1,6 +1,12 @@
+/*
+ * @Author: yexiaolong
+ * @Date: 2022-12-26 16:13:05
+ * @Description: 
+ */
 import React from "react";
 import {fireEvent, render} from '@testing-library/react'
-import Button, {ButtonProps, ButtonSize, ButtonType} from "./button";
+import Button, { ButtonSize, ButtonType} from "./button";
+import type { ButtonProps } from './button';
 
 const defaultProps = {
   onClick: jest.fn()
